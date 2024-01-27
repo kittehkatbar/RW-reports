@@ -1,0 +1,18 @@
+[Cash Register Retexture] Patch operation Verse.PatchOperationSequence(count=4, lastFailedOperation=Verse.PatchOperationRemove(Defs/ThingDef[defName="CashRegister_CashRegister"]/costList/ComponentIndustrial)) failed
+file: C:\SteamLibrary\steamapps\workshop\content\294100\2957271002\Patches\patch.xml
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+Verse.PatchOperation:Complete (string)
+Verse.PatchOperationSequence:Complete (string)
+(wrapper dynamic-method) Verse.LoadedModManager:Verse.LoadedModManager.ClearCachedPatches_Patch3 ()
+Verse.LoadedModManager:LoadAllActiveMods ()
+Verse.PlayDataLoader:DoPlayLoad ()
+Verse.PlayDataLoader:LoadAllPlayData (bool)
+Verse.Root/<>c:<Start>b__6_1 ()
+Verse.LongEventHandler:RunEventFromAnotherThread (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
